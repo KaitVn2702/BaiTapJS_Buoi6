@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bài Tập JS Buổi 6</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h3>Bài Tập 1:</h3>
+      <h4>
+        Đề bài: Tìm số nguyên dương nhỏ nhất sao cho: 1 + 2 + ... + n > 10000
+      </h4>
+      <p class="bg-warning" id="result"></p>
+      <br /><br /><br />
+      <h3>Bài Tập 2</h3>
+      <h4>
+        Đề bài: Viết chương trình nhập vào 2 số x,n tính tổng: S(n) = x + x^2 +
+        x^3 + ... + X^n
+      </h4>
+      <div class="form-group">
+        <label for="">Số x là:</label>
+        <input
+          type="text"
+          name="x"
+          id="x"
+          class="form-control"
+          placeholder="Hãy nhập vào số x"
+          aria-describedby="helpId"
+        />
+      </div>
+      <div class="form-group">
+        <label for="">Số n là:</label>
+        <input
+          type="text"
+          name="n"
+          id="n"
+          class="form-control"
+          placeholder="Hãy nhập vào số n"
+          aria-describedby="helpId"
+        />
+      </div>
+      <button class="btn btn-danger" onclick="tinhTong()">Giải Bài Toán</button>
+      <br /><br />
+      <div class="bg-warning" id="result2"></div>
+      <br /><br /><br />
+      <h3>Bài Tập 3:</h3>
+      <h4>Đề bài: Nhập vào n. Tính giai thừa 1*2*....n</h4>
+      <div class="form-group">
+        <label for="">Nhập số n:</label>
+        <input
+          type="text"
+          name="n2"
+          id="n2"
+          class="form-control"
+          placeholder="Hãy nhập vào số n"
+          aria-describedby="helpId"
+        />
+      </div>
+      <button class="btn btn-danger" onclick="tinhGiaiThua()">
+        Tính giai thừa</button
+      ><br /><br />
+      <div class="bg-warning" id="ketQua"></div>
+      <br /><br /><br />
+      <h3>Bài Tập 4:</h3>
+      <h4>
+        Đề bài: In ra 10 thẻ div.Nếu thẻ div nào vị trí chẵn thì background màu
+        đỏ và lẻ thì background màu xanh
+      </h4>
+      <br />
+      <button class="btn btn-danger" onclick="myFunction()">Click me</button>
+      <br /><br />
+      <div class="bg-warning" id="myDIV"></div>
+      <br /><br /><br />
+      <h3>Bài Tập 5:</h3>
+      <h4>
+        Đề bài: Viết chương trình có 1 ô input, 1 ô button. Khi click vào button
+        thì in ra có số nguyên tố từ 1 tới giá trị của ô input
+      </h4>
+      <input type="number" id="inputNumber" placeholder="Hãy nhập vào 1 số" />
+      <button class="btn btn-danger" onclick="printPrimes()">
+        Print Primes
+      </button>
+      <div class="bg-warning" id="result5"></div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
